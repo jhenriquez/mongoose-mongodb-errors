@@ -26,7 +26,7 @@ So, unfortunately you must be using the latest mongoose to use this plugin.
 
 ## Current Status
 
-Right now only one transformation is fully supported, which is the most common duplicate key (index) error, it will conventionally be transformed into `ValidationError`. It successfully identify the failing path (or field) and value correctly, and add it into the errors hash.
+Right now only one transformation is fully supported, which is the most common duplicate key (index) error, it will conventionally be transformed into `ValidationError`. It successfully identify the failing path (or field) and value correctly, and add them into the errors hash.
 
 ## Contributing and running the tests
 
