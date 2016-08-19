@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-mongodb-errors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Julio Henriquez <julio.m.henriquez@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.15.0",
+    "mocha": "^3.0.2",
+    "mongoose": "^4.5.9",
+    "q": "^1.4.1"
+  }
+}
