@@ -1,17 +1,16 @@
 {
   "name": "mongoose-mongodb-errors",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Transform mongodb like errors (E.G. \"11000 - duplicate key\") into Mongoose ValidationError instances",
+  "main": "lib/plugin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recurssive specs/"
   },
-  "keywords": [],
+  "keywords": ["mongoose", "plugin", "mongodb", "errors"],
   "author": "Julio Henriquez <julio.m.henriquez@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
-    "lodash": "^4.15.0",
     "mocha": "^3.0.2",
     "mongoose": "^4.5.9",
     "q": "^1.4.1"
